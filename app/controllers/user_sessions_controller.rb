@@ -1,14 +1,11 @@
 class UserSessionsController < ApplicationController
   def new
-<<<<<<< HEAD
    # content = ElectricityReading.report_table_by_sql("SELECT * FROM electricity_readings ").as(:csv)
    # file = File.open("#{RAILS_ROOT}/report.csv", "w") # open file
    #   file.print(content) # print that csv content to the open file
    # file.close          # close the file
-=======
-    @user = User.new
+#    @user = User.new
 
->>>>>>> 6808dc825bd6dae48aef3856c83ead8324554c04
     @user_session = UserSession.new
   end
 
